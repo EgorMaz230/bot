@@ -15,7 +15,7 @@ function sendMessage(message) {
 }
 
 // Задача для выполнения в указанное время каждый день
-const taskSunday = cron.schedule('20 10 * * 0', () => {
+const taskSunday = cron.schedule('20 11 * * 0', () => {
   const message = 'FE 1y_7 менторська година неділя,  11:40 – 12:40 Інформація для приєднання до Google Meet Посилання на відеодзвінок: https://meet.google.com/wtq-mkzy-ruv Або наберіть: +44 20 3873 3170 (PIN-код: 2615750918333) Інші номери телефонів: https://tel.meet/wtq-mkzy-ruv?pin=2615750918333';
   sendMessage(message);
 });
